@@ -1,4 +1,4 @@
-export const APIkey = "8e74bf7be8f34aa6a4fe2a5646394aa9";
+export const APIkey = import.meta.env.VITE_API_KEY;
 export const newsApiBaseUrl =
   import.meta.env.NODE_ENV === "production"
     ? "https://nomoreparties.co/news/v2/everything"
